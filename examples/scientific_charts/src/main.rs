@@ -4,7 +4,7 @@ use std::f64::consts::PI;
 
 use plotly::common::{ColorScale, ColorScalePalette, Font, Title};
 use plotly::contour::Contours;
-use plotly::{color, Contour, HeatMap, Layout, Plot};
+use plotly::{Contour, HeatMap, Layout, Plot};
 
 // Contour Plots
 fn simple_contour_plot() {
